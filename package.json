@@ -1,6 +1,4 @@
-{
-  "homepage": "http://Preeti-Chavda.github.io/News-mag",
-  "name": "news-mag",
+{"name": "news-mag",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
